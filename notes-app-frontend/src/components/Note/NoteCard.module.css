@@ -1,0 +1,51 @@
+.note {
+  display: flex;
+  flex-direction: column;
+  min-width: 170px;
+  float: left;
+  position: relative;
+  background: #fff;
+  margin: 10px;
+  border-left: 1% solid #ffbcea;
+  border-radius: 4px;
+  padding: 20px;
+  white-space: normal;
+  transition: all 200ms ease-in-out;
+  break-inside: avoid-column;
+}
+
+textarea {
+  border: none;
+  width: auto;
+  overflow: hidden;
+  height: 50px;
+  resize: none;
+}
+
+.foot button {
+  width: 80px;
+  height: 24px;
+  font-size: 14px;
+  border: 1px;
+  transition-duration: 0.4s;
+  margin-right: 10px;
+}
+
+.note:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  background: rgb(197, 174, 204);
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #aaaaaa;
+
+  border-radius: 0 0 0 4px;
+}
+h1,
+h4 {
+  margin: 10px 20px;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 40px;
+  min-width: 240px;
+}

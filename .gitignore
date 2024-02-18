@@ -1,0 +1,4 @@
+*.DS_Store
+notes-app-backend/node_modules/
+notes-app-backend/dist/
+notes-app-frontend/node_modules/
